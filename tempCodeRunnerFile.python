@@ -1,1 +1,12 @@
-print("13412")
+class çalışan:
+    personel_sayısı = 0
+
+    def __init__(self,isim,maaş):
+        self.isim = isim
+        self.maaş = maaş
+        çalışan.personel_sayısı += 1
+çalışan1 = çalışan("Alper",500000)
+çalışan2 = çalışan("Ahmet",400000)
+ 
+
+
